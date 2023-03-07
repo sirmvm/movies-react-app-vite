@@ -1,0 +1,41 @@
+.movie-card {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.5s;
+}
+/* movie-card = para cuando posiciona el mouse sobre la imagen */
+/* Importe el :hover debe ir pegado a la palabra que lo antecede*/
+.movie-card:hover {
+    opacity: 0.5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+
+}
+.img-card {
+    border-radius: 10px;
+
+}
+.title-card{
+    color: white;
+}
+
+.buttonLike{
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+@media (max-width: 560px) {
+    .movieImage 
+    {
+        width: 90%;
+        height: auto;
+    }
+}

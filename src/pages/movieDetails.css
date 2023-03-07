@@ -1,0 +1,32 @@
+.details-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col{
+    max-width: 500px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+}
+.imagens {
+    padding-top: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.title-movie{
+    margin-top: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    color:rgba(0, 0, 0, 0.719);
+    text-decoration: none;
+}
+.movie-details{
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+p{
+    text-align: justify;
+}

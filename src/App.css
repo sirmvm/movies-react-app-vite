@@ -1,0 +1,31 @@
+header{
+    display: grid;
+    justify-content: center;
+    
+}
+.title-1{
+    margin-top: 10px;
+    padding-top:5px;
+    text-align: center;
+    font-size: 3rem;
+    color:#79f505;
+    text-decoration: none;
+}
+.banner{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    transition: 0.8s;
+
+}
+
+@media (max-width: 560px) {
+    .banner 
+    {
+        width: 90%;
+        height: auto;
+    }
+}
